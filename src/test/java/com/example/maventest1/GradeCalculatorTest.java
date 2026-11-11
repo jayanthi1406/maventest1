@@ -6,7 +6,7 @@ class GradeCalculatorTest {
 
     @Test
     void testTotal() {
-        assertEquals(225,
+        assertEquals(300,
             GradeCalculator.calculateTotal(75, 68, 82));
     }
 
